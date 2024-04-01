@@ -1,0 +1,67 @@
+.filter-container {
+  margin-top: 10px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.filter-store-container {
+  display: flex;
+}
+
+.sales-store-filter-select__control {
+  width: 270px;
+  height: 50px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  border: 1px solid var(--grey-light-color) !important;
+  color: var(--grey-light-color);
+  font-size: 16px;
+  display: flex;
+}
+
+.sales-store-filter-select__option {
+  color: var(--grey-light-color) !important;
+}
+
+.sales-store-filter-select__indicator {
+  color: var(--grey-light-color) !important;
+}
+
+.sales-store-filter-select__placeholder {
+  padding-left: 2px;
+  color: var(--grey-light-color) !important;
+  font-size: 16px;
+}
+
+.sales-store-filter-select__indicator-separator {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .filter-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .sales-store-filter-select__control {
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .filter-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .filter-container {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+}
